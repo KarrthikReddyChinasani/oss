@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "strict": false,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "moduleResolution": "node",
+        "target": "es5",
+        "allowJs": true,
+        "jsx": "react",
+        "baseUrl": ".",
+        "paths": {
+            "utils/*": [
+              "./src/utils/*"
+            ],
+            "components/*": [
+                "./src/components/*"
+            ],
+            "pages/*": [
+                "./src/pages/*"
+            ]
+          }
+    },
+    "include": [
+        "./src/**/*",
+        "src/custom.d.ts"
+    ]
+}

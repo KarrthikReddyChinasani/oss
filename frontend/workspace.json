@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "oss": "apps/oss",
+    "oss-e2e": "apps/oss-e2e"
+  }
+}
